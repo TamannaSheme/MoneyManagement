@@ -1,0 +1,73 @@
+    /* ================================  start CSS  =============================== */
+    /* google Font */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    /* utilities */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* header part  */
+    
+    .main--header {
+        color: rgb(19, 68, 80);
+        word-spacing: 10px;
+    }
+    /* body part  start */
+    /* Income Field  */
+    
+    .income--expanses {
+        background-color: rgb(244, 244, 247);
+        border-radius: 10px;
+    }
+    /* Input Field  */
+    
+    input {
+        max-width: 229px;
+        max-height: 44px;
+        border: 2px solid #DCDCDC;
+        background: #DCDCDC;
+        border-radius: 2px;
+    }
+    /* Calculate Button  */
+    
+    .calculate-btn {
+        width: 150px;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(17, 93, 112);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    /* Calculate hover Button  */
+    
+    .calculate-btn:hover,
+    .calcSave-btn:hover {
+        background-color: rgb(193, 213, 223);
+        color: rgb(17, 93, 112);
+        border: 2px solid rgb(17, 93, 112);
+        font-weight: bold;
+    }
+    /* percentage Sign */
+    
+    .percentage {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    /* Calculate Save Button  */
+    
+    .calcSave-btn {
+        width: 120px;
+        height: 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(17, 93, 112);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    /* ================================  End CSS  =============================== */
